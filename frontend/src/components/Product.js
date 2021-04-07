@@ -5,23 +5,23 @@ import Rating from './Rating';
 export default function Product(props) {
   const { product } = props;
   return (
-    <div key={product._id} className="card">
-      <Link to={`/product/${product._id}`}>
-        <img className="medium" src={product.image} alt={product.name} />
+    <div key={this.product._id} className="card">
+      <Link to={`/product/${this.product._id}`}>
+        <img className="medium" src={this.product.image} alt={this.product.name} />
       </Link>
       <div className="card-body">
-        <Link to={`/product/${product._id}`}>
-          <h2>{product.name}</h2>
+        <Link to={`/product/${this.product._id}`}>
+          <h2>{this.product.name}</h2>
         </Link>
         <Rating
-          rating={product.rating}
-          numReviews={product.numReviews}
+          rating={this.product.rating}
+          numReviews={this.product.numReviews}
         ></Rating>
         <div className="row">
-          <div className="price">${product.price}</div>
+          <div className="price">${this.product.price}</div>
           <div>
-            <Link to={`/seller/${product.seller._id}`}>
-              {product.seller.seller.name}
+            <Link to={`/seller/${this.product.seller._id}`}>
+              {this.product.seller.seller.name}
             </Link>
           </div>
         </div>
