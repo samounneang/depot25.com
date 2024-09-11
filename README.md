@@ -1,5 +1,5 @@
 # Amazona ECommerce Website
-![amazona](/template/images/amazona.jpg)
+[![amazona](/template/images/amazona.jpg)](url)
 
 ## Tech stack
 
