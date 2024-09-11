@@ -1,6 +1,3 @@
-# Amazona ECommerce Website
-[![amazona](/template/images/amazona.jpg)](url)
-
 ## Tech stack
 
 - HTML5 and CSS3: Semantic Elements, CSS Grid, Flexbox
